@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Calc.css">
+</head>
+<script src="Calc.js"></script>
+
+<body>
+    <h1>Welcome to My Calculator</h1>
+    <div class="calculator-container">
+
+        <div class="calculator">
+            <input type="text" id="number-input" placeholder="Let's Calculate">
+
+            <div class="row">
+                <button onclick="clearInput()">AC</button>
+                <button onclick="currentInput(this)">0</button>
+                <button onclick="currentInput(this)">/</button>
+                <button onclick="currentInput(this)">*</button>
+            </div>
+
+            <div class="row">
+                <button onclick="currentInput(this)">7</button>
+                <button onclick="currentInput(this)">8</button>
+                <button onclick="currentInput(this)">9</button>
+                <button onclick="currentInput(this)">-</button>
+            </div>
+            <div class="row">
+                <button onclick="currentInput(this)">4</button>
+                <button onclick="currentInput(this)">5</button>
+                <button onclick="currentInput(this)">6</button>
+                <button onclick="currentInput(this)">+</button>
+            </div>
+            <div class="row">
+                <button onclick="currentInput(this)">1</button>
+                <button onclick="currentInput(this)">2</button>
+                <button onclick="currentInput(this)">3</button>
+                <button onclick="result()">=</button>
+            </div>
+
+
+        </div>
+
+
+    </div>
+</body>
+
+</html>
